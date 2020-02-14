@@ -5,7 +5,46 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <fieldset>
+      <legend>Cadastradar Pessoas</legend>
+    <form action="">
+      <label for="nome">Nome:</label>
+      <input type="text" placeholder="Nome" id="nome">
+      <br>
+      <label for="sobreNome">Sobrenome:</label>
+      <input type="text" placeholder="Sobrenome" id="sobreNome">
+      <br>
+      <label for="cpf">Cpf:</label>
+      <input type="text" placeholder="Cpf" id="cpf">
+      <br>
+      <label for="telefone">Telefone: </label>
+      <input type="text" placeholder="Telefone" id="telefone">
+      <br>
+      <label for="endereco">Endereço: </label>
+      <input type="text" placeholder="Endereço" id="endereco">
+      <br>
+      <button>Cadastrar</button>
+    </form>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Pessoas cadastradas</legend>
+      <table border="1">
+        <tr>
+          <th>Nome</th>
+          <th>Sobrenome</th>
+          <th>Cpf</th>
+          <th>Telefone</th>
+          <th>Endereço</th>
+        </tr>
+        <tr>
+          <td>info</td>
+          <td>info</td>
+          <td>info</td>
+          <td>info</td>
+          <td>info</td>
+        </tr>
+      </table>
+    </fieldset>
   </body>
 </html>
